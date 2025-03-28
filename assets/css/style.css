@@ -1,3 +1,20 @@
+.hero-image {
+    background-image: url(../images/hero-image.webp); 
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; /* Full höjd på skärmen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Om du vill lägga till text ovanpå */
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Svart genomskinlig bakgrund för texten */
+    padding: 20px;
+}
 
 .image-container {
     display: flex;
