@@ -1,3 +1,9 @@
+* {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .hero-image {
     background-image: url(../images/hero-image.webp); 
     background-size: cover;
