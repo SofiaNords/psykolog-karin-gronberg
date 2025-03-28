@@ -33,6 +33,19 @@
     margin-top: 25px;
 }
 
+.service-card {
+    min-height: 300px;
+}
+.service-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+.service-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 @media (max-width: 768px) {
     .rounded-image {
