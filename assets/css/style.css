@@ -91,6 +91,21 @@ body {
     border-color: black;
 }
 
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hitta-hit {
+    margin-top: 50px;
+}
 
 @media (max-width: 768px) {
     .rounded-image {
