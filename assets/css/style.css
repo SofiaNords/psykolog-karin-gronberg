@@ -78,7 +78,7 @@ body {
 }
 .service-icon {
     font-size: 3rem;
-    color: #88944C;
+    color: black;
 }
 .service-card-body {
     display: flex;
@@ -87,8 +87,8 @@ body {
 }
 
 .btn {
-    background-color: #88944C;
-    border-color: #88944C;
+    background-color: black;
+    border-color: black;
 }
 
 
