@@ -113,7 +113,7 @@ body {
 
 .contact {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: center;
     padding-top: 50px;
 }
@@ -124,7 +124,7 @@ body {
     margin: 25px;
 }
 
-.hitta-hit {
+.address {
     margin-top: 25px;
 }
 
