@@ -62,7 +62,7 @@ body {
 }
 
 .about-container{
-    margin-top: 25px;
+    margin-top: 58px;
     display: flex;
     justify-content: center;
     max-width: 1000px;
@@ -97,6 +97,7 @@ body {
     text-align: center;
     width: 100%;
     margin-bottom: 25px;
+    margin-top: 58px;
 }
 
 .card {
@@ -145,7 +146,6 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-top: 50px;
 }
 
 .contact h2 {
@@ -197,7 +197,7 @@ body {
         width: 250px;
         height: 250px;
     }
-    .about-text h1 {
+    .about-text h2 {
         margin-top: 0 !important;
     }
 }
