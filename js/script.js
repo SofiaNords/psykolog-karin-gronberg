@@ -13,7 +13,7 @@ function displayServices() {
         <div class="card-body">
           <h5 class="card-title">${service.name}</h5>
           <p>${service.breifDescription}</p>
-            <div class="d-flex">
+            <div class="d-flex justify-content-center">
               <!-- Details Button -->
               <button class="btn btn-service detailsAndCloseBtn me-2" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="openModal(${index})">Details</button>
         `;

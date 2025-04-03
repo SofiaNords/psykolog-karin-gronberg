@@ -98,6 +98,7 @@ body {
 .btn {
     background-color: rgba(50,50,50,50);
     border-color: rgba(50,50,50,50);
+    color: white;
 }
 
 .btn:hover {
