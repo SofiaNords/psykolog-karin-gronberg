@@ -111,6 +111,19 @@ body {
     padding: 10px;
 }
 
+#modalDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: start;
+}
+
+#modalDescription ul {
+    margin-top: 10px; /* Lägg till lite avstånd före punktlistan */
+    list-style-type: disc; /* Gör punktlistan tydlig */
+    padding-left: 50px; /* Lägg till indrag för listan */
+}
+
 .btn {
     background-color: rgba(50,50,50,50);
     border-color: rgba(50,50,50,50);

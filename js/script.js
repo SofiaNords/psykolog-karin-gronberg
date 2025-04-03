@@ -27,6 +27,6 @@ displayServices();
 function openModal(index) {
     const service = services[index];
   
-    document.getElementById("modalDescription").textContent = service.description;
+    document.getElementById("modalDescription").innerHTML = service.description;
     document.getElementById("serviceModalLabel").textContent = service.name;
 }
