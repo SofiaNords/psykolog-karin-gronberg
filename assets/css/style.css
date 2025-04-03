@@ -152,7 +152,6 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 58px;
 }
 
 .map {
@@ -192,9 +191,6 @@ body {
     text-decoration: underline;
 }
 
-footer {
-    margin-top: 58px;
-}
 
 @media (max-width: 768px) {
     .rounded-image {
