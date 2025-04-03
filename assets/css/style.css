@@ -73,7 +73,7 @@ body {
     padding: 25px;
 }
 
-.about-text h1 {
+.about-text h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +139,8 @@ body {
 
 .contact {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     padding-top: 50px;
@@ -154,15 +156,39 @@ body {
     display: flex;
     justify-content: center;
     margin: 25px;
+    width: 100%;
 }
 
 .map iframe {
+    width: 100%;
+    max-width: 600px;
     border-radius: 0.25rem; 
 }
 
-.address {
-    margin-top: 25px;
+.address p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.address i {
+    margin-right: 10px;
+    color: #333; /* Mörkgrå färg för ikoner */
+}
+
+.address a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.address a:hover {
+    color: #007bff; /* Ändrar färg när man hovrar över länken */
+    text-decoration: underline;
+}
+
 
 @media (max-width: 768px) {
     .rounded-image {
