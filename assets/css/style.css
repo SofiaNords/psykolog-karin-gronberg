@@ -36,6 +36,7 @@ body {
     padding: 20px;
     max-width: 1000px;
     color:rgba(50,50,50,50);
+    border-radius: 0.25rem;
 }
 
 .image-container {
@@ -93,6 +94,21 @@ body {
     justify-content: center;
     text-align: center;
     width: 100%;
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card:hover {
+    transform: scale(1.05) translateY(-10px);  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+.card h5 {
+    padding: 10px;
 }
 
 .btn {
@@ -115,10 +131,20 @@ body {
     padding-top: 50px;
 }
 
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .map {
     display: flex;
     justify-content: center;
     margin: 25px;
+}
+
+.map iframe {
+    border-radius: 0.25rem; 
 }
 
 .address {
