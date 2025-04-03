@@ -62,7 +62,7 @@ body {
 }
 
 .about-container{
-    margin-top: 58px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     max-width: 1000px;
@@ -97,7 +97,7 @@ body {
     text-align: center;
     width: 100%;
     margin-bottom: 25px;
-    margin-top: 58px;
+    margin-top: 60px;
 }
 
 .card {
@@ -153,7 +153,7 @@ body {
     justify-content: center;
     text-align: center;
     margin-bottom: 25px;
-    margin-top: 58px !important;
+    margin-top: 60px !important;
 }
 
 .map {
