@@ -3,6 +3,8 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
