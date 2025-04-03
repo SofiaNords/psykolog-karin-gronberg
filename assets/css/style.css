@@ -121,7 +121,7 @@ body {
 #modalDescription ul {
     margin-top: 10px; /* Lägg till lite avstånd före punktlistan */
     list-style-type: disc; /* Gör punktlistan tydlig */
-    padding-left: 50px; /* Lägg till indrag för listan */
+    padding-left: 25px; /* Lägg till indrag för listan */
 }
 
 .btn {
