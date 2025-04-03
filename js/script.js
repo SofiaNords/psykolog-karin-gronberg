@@ -15,7 +15,7 @@ function displayServices() {
           <p>${service.breifDescription}</p>
             <div class="d-flex justify-content-center">
               <!-- Details Button -->
-              <button class="btn btn-service detailsAndCloseBtn me-2" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="openModal(${index})">Details</button>
+              <button class="btn btn-service detailsAndCloseBtn me-2" data-bs-toggle="modal" data-bs-target="#serviceModal" onclick="openModal(${index})">Läs mer</button>
         `;
         serviceList.appendChild(serviceCard);
     });
