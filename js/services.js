@@ -18,7 +18,7 @@ const services = [
     {
         id: 3,
         name: "Psykologisk coaching",
-        breifDescription: "Samtal som hjälper dig att utvecklas i både privatliv och arbetsliv. Hjälper dig att hitta din väg framåt och gå mot det liv du önskar leva",
+        breifDescription: "Samtal som hjälper dig att utvecklas i både privatliv och arbetsliv. Hjälper dig att hitta din väg framåt och gå mot det liv du önskar leva.",
         description: `
             Arbetslivsinriktad psykologisk coaching passar dig som önskar stöd att utvecklas i ditt yrkesliv. Jag jobbar med forskningsbaserade tekniker från kognitiv beteendeterapi. Som legitimerad psykolog har jag tystnadsplikt.
             <br>
