@@ -17,8 +17,8 @@ const services = [
     },
     {
         id: 3,
-        name: "Arbetslivsinriktad psykologisk coaching",
-        breifDescription: "Arbetslivsinriktad psykologisk coaching hjälper dig att utvecklas i ditt yrkesliv. Jag använder forskningsbaserade tekniker från KBT för att hjälpa dig hitta din väg framåt, sätta och nå mål, överkomma hinder, hantera stress och förbättra din prestation.",
+        name: "Psykologisk coaching",
+        breifDescription: "Samtal som hjälper dig att utvecklas i både privatliv och arbetsliv. Hjälper dig att hitta din väg framåt och gå mot det liv du önskar leva.",
         description: `
             Arbetslivsinriktad psykologisk coaching passar dig som önskar stöd att utvecklas i ditt yrkesliv. Jag jobbar med forskningsbaserade tekniker från kognitiv beteendeterapi. Som legitimerad psykolog har jag tystnadsplikt.
             <br>
