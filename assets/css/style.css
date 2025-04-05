@@ -48,7 +48,7 @@ body {
     padding: 20px;
     max-width: 1000px;
     color:rgba(50,50,50,50);
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .image-container {
@@ -123,6 +123,7 @@ body {
 .card {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -133,6 +134,11 @@ body {
 
 .card h5 {
     padding: 10px;
+}
+
+.card-img-top {
+    background-size: cover;
+    background-position: center;
 }
 
 #modalDescription {
