@@ -12,7 +12,7 @@ function displayServices() {
         <div class="card">
           <img src="${service.image}" class="card-img-top" alt="${service.name}">    
           <div class="card-body">
-            <h5 class="card-title">${service.name}</h5>
+            <h3 class="card-title">${service.name}</h3>
             <p>${service.breifDescription}</p>
               <div class="d-flex justify-content-center">
                 <!-- Details Button -->
