@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    max-width: 100%;
 }
 
 .hero-image {
@@ -79,6 +80,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #E1EBF3;
+    max-width: 100%;
 }
 
 .about-container{
@@ -107,7 +109,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -222,6 +224,10 @@ body {
 .address a:hover {
     color: #007bff; /* Ändrar färg när man hovrar över länken */
     text-decoration: underline;
+}
+
+footer {
+    max-width: 100%;
 }
 
 
