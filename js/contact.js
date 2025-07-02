@@ -1,21 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const bookingWrapper = document.getElementById('booking-wrapper');
-    const placeholder = document.getElementById('booking-placeholder');
-    const overlay = document.getElementById('booking-overlay');
+    const contactWrapper = document.getElementById('contact-wrapper');
+    const placeholder = document.getElementById('contact-placeholder');
+    const overlay = document.getElementById('contact-overlay');
 
-    if (!bookingWrapper || !overlay) return;
+    if (!contactWrapper || !overlay) return;
 
     const frame = document.createElement('iframe');
-    frame.src = "https://karingronbergab.kaddio.com/iframe/booking";
+    frame.src = "https://karingronbergab.kaddio.com/iframe/contact-us";
     frame.width = "100%";
     frame.height = "100%";
     frame.style.border = "0";
     frame.setAttribute("scrolling", "yes");
     frame.setAttribute("loading", "lazy");
 
-    const activateBooking = () => {
-        bookingWrapper.appendChild(frame);
-
+    const activateContact = () => {
+        contactWrapper.appendChild(frame);
         placeholder.style.opacity = 0;
         overlay.style.opacity = 0;
 
@@ -25,5 +24,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     };
 
-    overlay.addEventListener('click', activateBooking);
+    overlay.addEventListener('click', activateContact);
 });
