@@ -8,9 +8,9 @@ const services = [
     },
     {
     id: 2,
-    name: "Psykologsamtal Ungdom 13-18 år",
+    name: "Psykologsamtal Ungdom 12-18 år",
     image: "assets/images/ungdom.webp",
-    breifDescription: "Samtal för ungdomar mellan 13-18 i trygg miljö. Vi anpassar efter dina behov.",
+    breifDescription: "Samtal för ungdomar mellan 12-18 i trygg miljö. Vi anpassar efter dina behov.",
     description: "Jag rekommenderar att förälder/vårdnadshavare följer med till första mötet. Vanligtvis börjar vi första samtalet med att prata en stund tillsammans med förälder/vårdnadshavare för att ta reda på vad du behöver hjälp med. Ibland pratar jag en stund ensam med dig i mitten av mötet medan förälder/vårdnadshavare väntar i väntrummet. Mot slutet av mötet återkopplar jag vad som kan vara hjälpsamt för dig. Jag anpassar behandlingen efter dina behov. Om vi bokar fler möten kan det bli att vi pratar ensamma utan förälder/vårdnadshavare.<br><br>Som legitimerad psykolog har jag tystnadsplikt. Vi kan prata om stress, oro, ångest, sömnproblem, nedstämdhet, negativ självbild eller dåligt självförtroende. Kanske är du en i jobbig situation som du behöver stöd i. Kanske har du varit med om något svårt som du behöver bearbeta. Känner du dig osäker på vad du önskar hjälp med eller har svårt att formulera det i ord - Kom som du är, jag hjälper dig i mötet att ringa in problemet.<br><br>Jag arbetar utifrån kognitiv beteendeterapi (KBT) och har lång erfarenhet av psykologisk bedömning och behandling.</br></br>50 minuters samtal 1200 kr.</br></br>Mottagningen är öppen för besök endast efter tidsbokning. Kontakta mig om du inte hittar en tid som passar dig, så försöker vi lösa det.",
     },
     {

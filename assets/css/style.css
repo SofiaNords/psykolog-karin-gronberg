@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background-color: #E1EBF3;
     overflow-x: hidden;
     max-width: 100%;
@@ -33,10 +34,11 @@ html, body {
 }
 
 .hero-image {
-    background-image: url(../images/hero-image.webp); 
+    background-image: url(../images/hero-image.webp);
     background-size: cover;
     background-position: center center;
-    height: 70vh; /* Full höjd på skärmen */
+    height: 70vh;
+    /* Full höjd på skärmen */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,10 +49,10 @@ html, body {
 
 .hero-text {
     background-color: rgba(255, 255, 255, 0.7);
-    font-size:larger;
+    font-size: larger;
     padding: 20px;
     max-width: 1000px;
-    color:rgba(50,50,50,50);
+    color: rgba(50, 50, 50, 50);
     border-radius: 5px;
 }
 
@@ -85,7 +87,7 @@ html, body {
     max-width: 100%;
 }
 
-.about-container{
+.about-container {
     margin-top: 60px;
     display: flex;
     justify-content: center;
@@ -130,7 +132,7 @@ html, body {
 }
 
 .card:hover {
-    transform: scale(1.05) translateY(-10px);  
+    transform: scale(1.05) translateY(-10px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     opacity: 0.9;
 }
@@ -152,23 +154,26 @@ html, body {
 }
 
 #modalDescription ul {
-    margin-top: 10px; /* Lägg till lite avstånd före punktlistan */
-    list-style-type: disc; /* Gör punktlistan tydlig */
-    padding-left: 25px; /* Lägg till indrag för listan */
+    margin-top: 10px;
+    /* Lägg till lite avstånd före punktlistan */
+    list-style-type: disc;
+    /* Gör punktlistan tydlig */
+    padding-left: 25px;
+    /* Lägg till indrag för listan */
 }
 
 .btn {
-    background-color: rgba(50,50,50,50);
-    border-color: rgba(50,50,50,50);
+    background-color: rgba(50, 50, 50, 50);
+    border-color: rgba(50, 50, 50, 50);
     color: white;
 }
 
 .btn:hover {
-    background-color: white; 
-    color: rgba(50,50,50,50); 
+    background-color: white;
+    color: rgba(50, 50, 50, 50);
     border-color: white;
     text-decoration: none;
-  }
+}
 
 .contact {
     display: flex;
@@ -186,54 +191,142 @@ html, body {
     margin-top: 60px !important;
 }
 
+.contact iframe {
+    height: 800px;
+    width: 600px;
+    max-width: 100%;
+}
+
+.contact .iframe-wrapper {
+    height: 800px;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 1s ease;
+}
+
+.booking {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.booking h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 60px !important;
+}
+
+.booking iframe {
+    height: 1000px;
+    width: 800px;
+    max-width: 100%;
+}
+
+.booking .iframe-wrapper {
+    width: 800px;
+    height: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.booking-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 1s ease;
+}
+
 .map {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
-  margin: 25px auto;
-  overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 25px auto;
+    overflow: hidden;
 }
 
 #placeholder-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 1s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.iframe-placeholder picture,
+.iframe-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .map-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.25rem;
-  font-weight: 500;
-  z-index: 2;
-  cursor: pointer;
-  transition: opacity 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 1s ease;
 }
 
 #iframe-map {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 0.25rem;
-  z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.25rem;
+    z-index: 0;
 }
 
 
@@ -251,7 +344,8 @@ html, body {
 
 .address i {
     margin-right: 10px;
-    color: #333; /* Mörkgrå färg för ikoner */
+    color: #333;
+    /* Mörkgrå färg för ikoner */
 }
 
 .address a {
@@ -261,7 +355,8 @@ html, body {
 }
 
 .address a:hover {
-    color: #007bff; /* Ändrar färg när man hovrar över länken */
+    color: #007bff;
+    /* Ändrar färg när man hovrar över länken */
     text-decoration: underline;
 }
 
@@ -275,8 +370,19 @@ footer {
         width: 250px;
         height: 250px;
     }
+
     .about-text h2 {
         margin-top: 0 !important;
+    }
+
+    .booking iframe {
+        width: 100%;
+        height: 600px;
+    }
+
+    .booking .iframe-wrapper {
+        width: 100%;
+        height: 600px;
     }
 }
 

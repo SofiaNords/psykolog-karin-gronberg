@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Jag har min mottagning på Hälsohuset i Lidköping och tar emot vuxna och ungdomar från 13 år för psykologisk behandling. Jag erbjuder också psykologisk coachning för dig som vill utvecklas i livet i stort alternativt i ditt yrkesliv. Som psykolog arbetar jag med de metoder som har visat sig ge bäst effekt enligt forskning och beprövad erfarenhet.">
+        content="Jag har min mottagning på Hälsohuset i Lidköping och tar emot vuxna och ungdomar från 12 år för psykologisk behandling. Jag erbjuder också psykologisk coachning för dig som vill utvecklas i livet i stort alternativt i ditt yrkesliv. Som psykolog arbetar jag med de metoder som har visat sig ge bäst effekt enligt forskning och beprövad erfarenhet.">
     <title>Psykolog Karin Grönberg</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://karingronbergab.kaddio.com">
 </head>
 
 <body>
@@ -34,6 +35,9 @@
                         <a class="nav-link" href="#services">Tjänster</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#booking">Boka tid</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Kontakt</a>
                     </li>
                 </ul>
@@ -44,13 +48,12 @@
         <div class="hero-image">
             <div class="hero-text">
                 <h1>Psykologmottagning i Lidköping</h1>
-                <a href="https://www.bokadirekt.se/places/karin-gronberg-leg-psykolog-128652" class="btn btn-primary"
-                    target="_blank">Boka tid</a>
+                <a href="#booking" class="btn btn-primary">Boka tid</a>
             </div>
         </div>
         <div class="row welcome">
             <h2>Välkommen till min mottagning!</h2>
-            <p>Jag tar emot vuxna och ungdomar från 13 år för
+            <p>Jag tar emot vuxna och ungdomar från 12 år för
                 psykologsamtal. Jag erbjuder också psykologisk coaching för dig som vill utvecklas i ditt privatliv
                 eller yrkesliv.
                 Som psykolog arbetar jag med de metoder som har visat sig ge bäst effekt enligt forskning och beprövad
@@ -61,9 +64,9 @@
         <div class="about-container">
             <div class="row">
                 <div class="col-lg image-container">
-                    <img src="./assets/images/karin-desktop.webp" class="rounded-image" alt="Bild på Karin Grönberg"
-                        srcset="assets/images/karin-mobile.webp 500w, assets/images/karin-desktop.webp 1000w"
-                        sizes="(max-width: 768px) 100vw, 50vw">
+                    <img src="./assets/images/karin-nlt.webp" class="rounded-image" alt="Bild på Karin Grönberg" srcset="
+                        ./assets/images/karin-nlt-mobile.webp 500w,
+                        ./assets/images/karin-nlt.webp 1000w" sizes="(max-width: 768px) 100vw, 50vw">
                 </div>
                 <div class="col-lg about-text">
                     <div class="row">
@@ -98,8 +101,7 @@
                     <div class="modal-body">
                         <p id="modalDescription"></p>
                         <!-- Bokningsknapp -->
-                        <a href="https://www.bokadirekt.se/places/karin-gronberg-leg-psykolog-128652" id="bookingLink"
-                            class="btn btn-primary" target="_blank">Boka tid</a>
+                        <a href="#booking" id="bookingLink" class="btn btn-primary">Boka tid</a>
                     </div>
                 </div>
             </div>
@@ -107,12 +109,30 @@
     </div>
 
     <!-- Kontaktsektion -->
+    <div class="container booking" id="booking">
+        <h2>Boka tid</h2>
+        <div class="iframe-wrapper position-relative" id="booking-wrapper">
+            <picture id="booking-placeholder-picture" class="iframe-placeholder">
+                <source srcset="./assets/images/booking-placeholder-mobile.webp" media="(max-width: 768px)">
+                <source srcset="./assets/images/booking-placeholder.webp" media="(min-width: 769px)">
+                <img src="./assets/images/booking-placeholder.webp" alt="Bokning hos psykolog Karin Grönberg"
+                    id="booking-placeholder" loading="lazy">
+            </picture>
+            <div class="booking-overlay" id="booking-overlay">Klicka för att visa bokningssystemet</div>
+        </div>
+    </div>
     <div class="container contact" id="contact">
         <h2>Kontakt</h2>
+        <div class="iframe-wrapper position-relative" id="contact-wrapper">
+            <picture id="contact-placeholder-picture" class="iframe-placeholder">
+                <source srcset="./assets/images/contact-placeholder.webp" media="(max-width: 768px)">
+                <source srcset="./assets/images/contact-placeholder.webp" media="(min-width: 769px)">
+                <img src="./assets/images/contact-placeholder.webp" alt="Kontaktformulär hos psykolog Karin Grönberg"
+                    id="contact-placeholder" loading="lazy">
+            </picture>
+            <div class="contact-overlay" id="contact-overlay">Klicka för att visa kontaktformuläret</div>
+        </div>
         <div class="col-lg address">
-            <p><i class="fas fa-calendar-check"></i><a
-                    href="https://www.bokadirekt.se/places/karin-gronberg-leg-psykolog-128652" target="_blank">Boka
-                    tid</a></p>
             <p><i class="fas fa-envelope"></i> <a
                     href="mailto:psykologkaringronberg@gmail.com">psykologkaringronberg@gmail.com</a></p>
             <p><i class="fas fa-phone-alt"></i> +46709424935</p>
@@ -125,7 +145,7 @@
         <div class="map" id="map">
             <img src="./assets/images/map-placeholder.webp" alt="Karta över Hälsohuset" id="placeholder-img">
             <div class="map-overlay" id="map-overlay">Klicka för att visa kartan</div>
-          </div>
+        </div>
     </div>
     <footer>
         <p style="text-align: center;">© 2025 Karin Grönberg AB. All rights reserved.</p>
@@ -140,6 +160,8 @@
     <script src="./js/navbar.js"></script>
     <script src="./js/services.js"></script>
     <script src="./js/map.js"></script>
+    <script src="./js/booking.js"></script>
+    <script src="./js/contact.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
