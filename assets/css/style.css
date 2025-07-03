@@ -193,7 +193,7 @@ body {
 
 .contact iframe {
     height: 800px;
-    width: 600px;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -241,7 +241,7 @@ body {
 
 .booking iframe {
     height: 1000px;
-    width: 800px;
+    width: 100%;
     max-width: 100%;
 }
 
