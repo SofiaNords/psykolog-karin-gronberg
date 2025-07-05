@@ -364,6 +364,13 @@ footer {
     max-width: 100%;
 }
 
+.company-info {
+    font-size: 0.85rem;
+    color: #555; /* diskret grå */
+    text-align: center;
+    margin: 0;
+}
+
 
 @media (max-width: 768px) {
     .rounded-image {
