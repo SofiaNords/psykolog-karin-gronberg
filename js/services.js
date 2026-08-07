@@ -148,7 +148,7 @@ const services = [
             Vi lägger upp en plan som passar dig, och under samtalen arbetar vi steg för steg mot de mål du vill nå. Coaching är ofta ett kortare och mer målinriktat upplägg än psykologisk behandling.
             <br>
             <br>
-            <strong>Det här kan psykologisk coacing hjälpa dig med</strong>
+            <strong>Det här kan psykologisk coaching hjälpa dig med</strong>
             Psykologisk coaching kan bland annat vara hjälpsamt om du vill:
             <ul>
                 <li>Hitta en tydligare riktning i livet eller arbetslivet</li>
